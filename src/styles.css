@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .square_container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: 100px;
+     border: 1px solid gray;
+     margin-top: 10px;
+     border-radius: 9px;
+
+   
+  }
+ 
+ .square{
+        width: 100px;
+        height: 98px;
+       
+ }
+ .square:focus{
+    outline: none;
+    border: none;
+   
+ }
+ .square:hover{
+    outline: none;
+    border: 1px solid blue;
+   
+ }
+ .board-row{
+    display: flex;
+   gap: 10px;
+  
+ }
+ .game{
+    display: flex;
+    justify-content: space-between
+ }
